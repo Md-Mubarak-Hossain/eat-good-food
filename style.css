@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-containers {
+    display: flex;
+    margin: 80px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 80px;
+}
+
+span {
+    color: orange
+}
+
+.half-width {
+    width: 50%;
+    margin: 20px;
+}
+
+#image-fix-rs {
+    width: 100%;
+
+
+}
+
+#image-fix-ls {
+    width: 50%;
+    margin-left: 150px;
+    padding-top: 30px;
+
+
+}
+
+
+
+.button-link {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 20px;
+
+}
+
+.about-me {
+    background-image: url(images/shape/7.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-size: cover;
+}
+
+.my-recipies {
+    text-align: center;
+    margin: 0% 25%;
+}
+
+
+.object-fit {
+    width: 500px;
+    height: 260px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.box-shadow {
+    padding: 25px;
+    box-shadow: -5px 5px 20px 20px rgba(219, 216, 216, 0.15);
+    border-radius: 20px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
